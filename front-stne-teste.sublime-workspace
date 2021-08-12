@@ -1,0 +1,978 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"che",
+				"checkbox"
+			],
+			[
+				"cu",
+				"curriculo"
+			],
+			[
+				"profisisonal",
+				"profissional"
+			],
+			[
+				"dados",
+				"dados_profissionais"
+			],
+			[
+				"quero",
+				"quero-ser-atendido\t(Site.php)"
+			],
+			[
+				"pro",
+				"profissionais\t(Site.php)"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"tag",
+				"tag-cloud"
+			],
+			[
+				"es",
+				"especialidade"
+			],
+			[
+				"especiali",
+				"especialidades"
+			],
+			[
+				"lista",
+				"lista-opcoes"
+			],
+			[
+				"nav",
+				"nav-menu"
+			],
+			[
+				"aria",
+				"aria-disabled\t(dados-profissionais.php)"
+			],
+			[
+				"conteu",
+				"conteudo-form\t(para-empresas.php)"
+			],
+			[
+				"uri_",
+				"uri_string\t(dados-profissionais.php)"
+			],
+			[
+				"lazy",
+				"lazyload\t(base.less)"
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"red",
+				"redirect\tCI - URL Helper - redirect"
+			],
+			[
+				"content",
+				"content-horas\t(busca.php)"
+			],
+			[
+				"item",
+				"item-dia\t(busca.php)"
+			],
+			[
+				"dia",
+				"diaagenda"
+			],
+			[
+				"dias",
+				"dias_disponiveis"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"btn",
+				"btn-cancelar"
+			],
+			[
+				"ur",
+				"uri_string"
+			],
+			[
+				"on",
+				"on\t.on()"
+			],
+			[
+				"assets",
+				"assets_url"
+			],
+			[
+				"lista-va",
+				"lista-vantagens\t(etapa_3.php)"
+			],
+			[
+				"fake",
+				"fake-label"
+			],
+			[
+				"dis",
+				"display\t(base.less)"
+			],
+			[
+				"desta",
+				"destaque-desconto"
+			],
+			[
+				"campos",
+				"campos-forma-pagamento-1\t(etapa_4.php)"
+			],
+			[
+				"solici",
+				"solicitacao\t(Site.php)"
+			],
+			[
+				"java",
+				"javascript\t(Site.php)"
+			],
+			[
+				"check",
+				"checkbox\t(menu.php)"
+			],
+			[
+				"data-elem",
+				"data-element-as-close"
+			],
+			[
+				"data-element-a",
+				"data-element-as-close\t(vendas.js)"
+			],
+			[
+				"data-element-as-",
+				"data-element-as-fieldset\t(base.less)"
+			],
+			[
+				"element-as",
+				"element-as-fieldset\t(form-mais-info.php)"
+			],
+			[
+				"endc",
+				"endforeach\t(home.php)"
+			],
+			[
+				"obir",
+				"obrigado_por_participar\t(Site.php)"
+			],
+			[
+				"cinza",
+				"cinzaHr\t(reset.less)"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"campo",
+				"campo-pix"
+			],
+			[
+				"politica",
+				"politica-de-privacidade\t(Site.php)"
+			],
+			[
+				"cell",
+				"cellpadding\t(politica-de-privacidade.php)"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"fons",
+				"font-size"
+			],
+			[
+				"read",
+				"readCookie"
+			],
+			[
+				"append",
+				"appendTo\t.appendTo()"
+			],
+			[
+				"politi",
+				"politica-de-cookies\t(Site.php)"
+			],
+			[
+				"gerar",
+				"gerar-link\t(base.less)"
+			],
+			[
+				"section",
+				"section-content"
+			],
+			[
+				"CLASS",
+				"class\tAttr"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"print",
+				"print_r($this"
+			],
+			[
+				"nm",
+				"nm_cidade"
+			],
+			[
+				"sua",
+				"sua_compra\t(Site.php)"
+			],
+			[
+				"basel",
+				"base_url"
+			],
+			[
+				"baunilha",
+				"baunilha2"
+			],
+			[
+				"nome",
+				"nome_leads\t(scripts.php)"
+			],
+			[
+				"last",
+				"last-child\t(base.less)"
+			],
+			[
+				"has",
+				"hasClass\t.hasClass()"
+			],
+			[
+				"now",
+				"nowrap"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"tri",
+				"trigger\t.trigger()"
+			],
+			[
+				"via",
+				"viaCep"
+			],
+			[
+				"bem",
+				"bem-vindo"
+			],
+			[
+				"texta",
+				"text-align"
+			],
+			[
+				"str",
+				"strtoint"
+			],
+			[
+				"novo",
+				"novo_passo"
+			],
+			[
+				"obej",
+				"object\t(base.less)"
+			],
+			[
+				"jus",
+				"justify"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"bordes",
+				"border-spacing"
+			],
+			[
+				"border-s",
+				"border-spacing"
+			],
+			[
+				"minh",
+				"min-height"
+			],
+			[
+				"header",
+				"header-back"
+			],
+			[
+				"obje",
+				"object-fit"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"be",
+				"between"
+			],
+			[
+				"unde",
+				"underline"
+			],
+			[
+				"isn",
+				"isnt_titular\t(base.less)"
+			],
+			[
+				"form",
+				"form-titular"
+			],
+			[
+				"conver",
+				"conversion"
+			],
+			[
+				"eta",
+				"etapa-1"
+			],
+			[
+				"ali",
+				"alinhador-direita\t(base.less)"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"import",
+				"importante\t(Site.php)"
+			],
+			[
+				"deta",
+				"destaque-desconto"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"ava",
+				"avaliacoes\t(Site.php)"
+			],
+			[
+				"passo",
+				"passo-anterior"
+			],
+			[
+				"isset",
+				"isset($campos[\"opcional"
+			],
+			[
+				"formata",
+				"formataData\t(etapa_4.php)"
+			],
+			[
+				"depe",
+				"dependente"
+			],
+			[
+				"cola",
+				"colaboradores\t(Site.php)"
+			],
+			[
+				"tele",
+				"telefone_fixo"
+			],
+			[
+				"col",
+				"colaboradores\t(Site.php)"
+			],
+			[
+				"k",
+				"key"
+			],
+			[
+				"dependen",
+				"dependentes"
+			],
+			[
+				"preen",
+				"preencher\t(etapa_4.php)"
+			],
+			[
+				"marri",
+				"margin-right"
+			],
+			[
+				"this",
+				"this\t$(this)"
+			],
+			[
+				"date",
+				"datetime\tAttr"
+			],
+			[
+				"opcao",
+				"opcao-1\t(base.less)"
+			],
+			[
+				"sele",
+				"selecionavel"
+			],
+			[
+				"base",
+				"base_url\t(Site.php)"
+			],
+			[
+				"key",
+				"keyframes\t(base.less)"
+			],
+			[
+				"page-",
+				"page-vendedor\t(base.less)"
+			],
+			[
+				"page",
+				"pagelink"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"border-c",
+				"border-collapse"
+			],
+			[
+				"border",
+				"border-bottom\t(base.less)"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"pars",
+				"parseInt"
+			],
+			[
+				"wbe",
+				"webkit"
+			],
+			[
+				"fiel",
+				"field-foto\t(vendedor.css)"
+			],
+			[
+				"label-",
+				"label-checkbox\t(mobile.css)"
+			],
+			[
+				"vertic",
+				"vertical-align"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"verti",
+				"vertical-align"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"flex",
+				"flex-flow"
+			],
+			[
+				"pros",
+				"prospectar-5"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/xampp/htdocs/teste-alinhamento/index.php",
+			"settings":
+			{
+				"buffer_size": 5478,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1152,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 455,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 368.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/front-stne-test"
+	],
+	"file_history":
+	[
+		"/D/Samba (D)/ismael-bordados/.gitignore",
+		"/D/Samba (D)/meuappoio/application/modules/profissional/views/pages/dados-profissionais.php",
+		"/D/Samba (D)/meuappoio/assets/profissional/scripts/pages/avaliacao.js",
+		"/D/Samba (D)/meuappoio/assets/profissional/scripts/pages/login.js",
+		"/D/Samba (D)/meuappoio/application/modules/profissional/views/template/scripts.php",
+		"/D/Samba (D)/meuappoio/application/modules/profissional/views/pages/avaliacoes.php",
+		"/D/Samba (D)/meuappoio/assets/profissional/scripts/pages/configuracoes.js",
+		"/D/Samba (D)/meuappoio/application/modules/profissional/views/pages/cadastro.php",
+		"/D/Samba (D)/meuappoio/application/modules/profissional/views/pages/dados-cadastrais.php",
+		"/D/Samba (D)/meuappoio/application/modules/cliente/views/pages/dados-cadastrais.php",
+		"/D/Samba (D)/meuappoio/application/modules/cliente/views/pages/agendamentos.php",
+		"/D/Samba (D)/meuappoio/application/modules/cliente/views/pages/include/aside.php",
+		"/D/Samba (D)/meuappoio/assets/cliente/scripts/ajax.js",
+		"/D/Samba (D)/meuappoio/application/modules/cliente/views/template/menu.php",
+		"/D/Samba (D)/meuappoio/application/modules/site/views/pages/quero-atender.php",
+		"/D/Samba (D)/meuappoio/application/modules/profissional/views/template/menu.php",
+		"/D/Samba (D)/meuappoio/application/modules/profissional/views/template/menu-site.php",
+		"/D/Samba (D)/meuappoio/application/modules/site/views/pages/quero-ser-atendido.php",
+		"/D/Samba (D)/meuappoio/application/modules/site/views/pages/apresentacao.php",
+		"/D/Samba (D)/meuappoio/application/modules/site/views/pages/login.php",
+		"/D/Samba (D)/meuappoio/application/modules/site/views/template/footer.php",
+		"/D/Samba (D)/meuappoio/application/modules/cliente/views/template/footer.php",
+		"/D/Samba (D)/meuappoio/application/modules/profissional/views/template/footer.php",
+		"/D/Samba (D)/meuappoio/application/modules/cliente/views/pages/dados-acesso.php",
+		"/D/Samba (D)/meuappoio/application/modules/cliente/views/pages/concluir-agendamento.php",
+		"/D/Samba (D)/meuappoio/application/modules/cliente/views/pages/avaliacoes.php",
+		"/D/Samba (D)/meuappoio/application/modules/cliente/views/pages/perfil.php",
+		"/D/Samba (D)/meuappoio/application/modules/cliente/views/pages/login.php",
+		"/D/Samba (D)/meuappoio/application/modules/cliente/views/pages/historico.php",
+		"/D/Samba (D)/meuappoio/application/modules/cliente/views/pages/cadastro.php",
+		"/D/Samba (D)/meuappoio/application/modules/profissional/views/pages/dados-acesso.php",
+		"/D/Samba (D)/meuappoio/assets/profissional/scripts/ajax.js",
+		"/D/Samba (D)/meuappoio/application/modules/profissional/views/pages/perfil.php",
+		"/D/Samba (D)/meuappoio/application/modules/profissional/views/pages/historico.php",
+		"/D/Samba (D)/meuappoio/application/modules/profissional/views/pages/configuracoes.php",
+		"/D/Samba (D)/meuappoio/application/modules/profissional/views/pages/agenda.php",
+		"/D/Samba (D)/meuappoio/application/modules/site/views/pages/para-empresas.php",
+		"/D/Samba (D)/meuappoio/application/modules/site/views/template/scripts.php",
+		"/D/Samba (D)/meuappoio/application/modules/site/views/template/header.php",
+		"/D/Samba (D)/meuappoio/application/modules/site/views/pages/faq.php",
+		"/D/Samba (D)/meuappoio/application/modules/site/views/pages/privacidade.php",
+		"/D/Samba (D)/meuappoio/application/modules/site/views/pages/termos.php",
+		"/Z/SuperPortaria/Projeto 02/application/modules/site/views/template/header.php",
+		"/D/Samba (D)/meuappoio/application/modules/site/views/forms/padrao.php",
+		"/D/Samba (D)/meuappoio/application/helpers/functions_helper.php",
+		"/D/Samba (D)/meuappoio/application/modules/site/views/forms/agendamento.php",
+		"/D/Samba (D)/ismael-bordados/application/helpers/functions_helper.php",
+		"/C/Users/Atualização/AppData/Roaming/Sublime Text 3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
+		"/D/Samba (D)/meuappoio/application/modules/site/views/pages/cadastro.php",
+		"/D/Samba (D)/meuappoio/assets/scripts/ajax.js",
+		"/D/Samba (D)/meuappoio/assets/scripts/pages/busca.js",
+		"/D/Samba (D)/meuappoio/application/modules/site/views/pages/busca.php",
+		"/D/Samba (D)/meuappoio/assets/images/icones/favicons/manifest.json",
+		"/Z/Ampliar Treinamentos/Projeto 01/wp-content/index.php",
+		"/D/Samba (D)/meuappoio/assets/cliente/scripts/pages/login.js",
+		"/D/Samba (D)/meuappoio/assets/styles/less/incs/fontes.less",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v5/obrigado.php",
+		"/Z/Redesul/Projeto 08/assets/styles/produtos/v5/incs/reset.less",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/template/produtos/v5/header_bkp(15-06-2021).php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v5/produtos.php",
+		"/Z/Redesul/Projeto 08/assets/scripts/pages/produtos/v4/produtos.js",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/template/produtos/v5/scripts.php",
+		"/Z/Redesul/Projeto 08/assets/scripts/main.js",
+		"/Z/Redesul/Projeto 08/lp/plano-de-saude-barato/2/index.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v5/etapa_3.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v5/etapa_2.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/template/produtos/v5/header.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v5/inicio.php",
+		"/Z/Redesul/Projeto 08/assets/styles/produtos/v5/incs/variaveis.less",
+		"/Z/Redesul/Projeto 08/assets/styles/produtos/v5/site.less",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v5/etapa_1.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v5/etapa_4.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v2/obrigado.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v1/obrigado.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v3/obrigado.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v4/obrigado.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v4/etapa_4.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v2/etapa_5.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v3/etapa_5.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v2/etapa_1.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v2/inicio.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v3/etapa_1.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v3/inicio.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v4/etapa_1.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v4/inicio.php",
+		"/C/Users/Atualização/Desktop/projetos-ionic/primeiroProjeto/src/pages/desempenho/desempenho.scss",
+		"/C/Users/Atualização/Desktop/projetos-ionic/primeiroProjeto/src/pages/select-players/select-players.scss",
+		"/C/Users/Atualização/Desktop/projetos-ionic/primeiroProjeto/src/app/app.scss",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v4/etapa_3.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/produtos/v4/etapa_2.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/template/scripts.php",
+		"/Z/Redesul/Projeto 08/assets/styles/less/incs/fontes.less",
+		"/Z/Redesul/Projeto 08/assets/styles/produtos/v5/incs/fontes.less",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/template/header.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/area-restrita/pessoa-juridica.php",
+		"/Z/Redesul/Projeto 08/assets/styles/produtos/v3/medias/base.less",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/indicacao.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/seja-credenciado.php",
+		"/Z/Redesul/Projeto 08/assets/styles/vendas/medias/base.less",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/template/vendas/header.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/vendas/obrigado-por-participar.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/vendas/vendas1-modelo2.php",
+		"/Z/Redesul/Projeto 08/assets/scripts/pages/vendas.js",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/vendas/vendas1-modelo1.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/vendas/form-mais-info.php",
+		"/Z/Redesul/Projeto 08/admin/application/modules/index/controllers/DashboardController.php",
+		"/Z/Redesul/Projeto 08/admin/application/modules/index/views/scripts/dashboard/inside-sales.phtml",
+		"/Z/Redesul/Projeto 08/assets/scripts/pages/vendedor.js",
+		"/Z/Redesul/Projeto 08/admin/public/scripts/php.js",
+		"/Z/Pool Assessoria/Making/2021/05 - maio/index.html",
+		"/Z/Redesul/Projeto 08/application/models/Site_model.php",
+		"/Z/Redesul/Projeto 08/assets/styles/vendas/incs/variaveis.less",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/template/vendas/header_bkp(11-05-2021).php",
+		"/Z/Redesul/Projeto 08/assets/styles/vendas/incs/reset.less",
+		"/C/xampp/htdocs/awd/application/modules/site/views/pages/home.php",
+		"/Z/Redesul/Projeto 08/assets/libraries/fancybox-3.5.7/js/jquery.fancybox.js",
+		"/Z/Redesul/Projeto 08/assets/libraries/fancybox-3.5.7/js/jquery.fancybox.min.js",
+		"/C/xampp/htdocs/awd/application/config/config.php",
+		"/C/xampp/htdocs/awd/application/modules/site/controllers/Site.php",
+		"/C/xampp/htdocs/awd/application/core/MY_Controller.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/template/vendas/scripts.php",
+		"/Z/Redesul/Projeto 08/application/core/MY_Controller.php",
+		"/Z/Redesul/Projeto 08/lp/wp-content/uploads/elementor/css/post-1926.css",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/template/vendas/footer-tks.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/template/vendas/scripts_bkp(07-05-2021).php",
+		"/Z/Redesul/Projeto 08/application/helpers/functions_helper.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/template/vendas/footer.php",
+		"/Z/Redesul/Projeto 08/application/modules/site/views/pages/consulta/v1/etapa_4.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 160.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/teste-alinhamento/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								918,
+								0
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "php",
+							"buffer_scroll_name": "2102ac3a",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								372,
+								372
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html",
+							"buffer_scroll_name": "7446579a",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "markdown",
+							"buffer_scroll_name": "e878d5ac",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "front-stne-teste.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"filiacao-cl",
+				"application\\views\\pages\\filiacao-de-clube-associacao.php"
+			],
+			[
+				"site",
+				"application\\controllers\\site.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"enc",
+				"C:\\Users\\Atualização\\Desktop\\Projetos\\encantada-floripa.sublime-project"
+			],
+			[
+				"",
+				"C:\\Users\\Atualização\\Desktop\\Projetos\\beretta.sublime-project"
+			],
+			[
+				"affesc",
+				"C:\\Users\\Atualização\\Desktop\\Projetos\\affesc-2015-affesc.sublime-project"
+			],
+			[
+				"bone",
+				"C:\\Users\\Atualização\\Desktop\\Projetos\\boneca-russa.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 304.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
