@@ -9,3 +9,8 @@ O projeto será executado instantaneamente.
 ## Apontamento
 11/08 = 17:30 - 18:05: Tentando descobrir como usa o GitHub de novo (Acostumado com Bitbucket)
 12/08 = 09:50 - 10:20: Análise de layout e criação dos primeiros arquivos e pastas
+		18:04 - 19:23: Análise de layout e construção da estrutura
+
+
+## Padrão de branch
+## FSB-front-stne-test--XXXXX
