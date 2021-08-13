@@ -1,0 +1,121 @@
+@import "variaveis.less";
+@import "mixins.less";
+
+//----------  TODAS AS TAGS  ----------
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	list-style: none;
+	appearance: none;	
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	list-style-type: none;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    padding-inline-start: 0;
+	font-family: @fontePadrao;
+}
+
+//----------  TAGS ESPECIFICAS  ----------
+body {
+	color: @text;
+	margin: 0 auto;
+	position: relative;
+	overflow-x: hidden;
+	top: 0 !important;
+	font-weight: @medium;
+	background-color: @bgBody;
+	// background: url(../../images/pattern.png) @bgBody;
+	font-family: @fontePadrao;
+    background-attachment: scroll;
+}
+
+input[type="radio"] {
+	appearance: radio;	
+	-moz-appearance: radio;
+	-webkit-appearance: radio;
+}
+
+input[type="radio"]:checked {
+	appearance: radio;	
+	-moz-appearance: radio;
+	-webkit-appearance: radio;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none !important;
+	.transition();
+}
+
+button {
+	cursor: pointer;
+	background-color: unset;
+	.transition();
+}
+
+::selection {
+	color: @branco;
+	background: @preto;
+	text-shadow: none;
+}
+::-moz-selection {
+	color: @branco;
+	background: @preto;
+	text-shadow: none;
+}
+
+[type="submit"] {
+	cursor: pointer;
+}
+
+[aria-disabled] {
+	touch-action: none;
+	pointer-events: none;
+	color: lightgray !important;
+}
+
+.required {
+	border: 1px solid red !important;
+}
+
+.btn-enviar, .btn {
+	.transition();
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.clearfix {
+	overflow: auto;
+	zoom: 1;
+}
+
+.container {
+	.wrapper-container();
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.container-large {
+	width: 100%;
+	max-width: @container-large;
+	margin: 0 auto;
+	padding: 0 10px;
+}
