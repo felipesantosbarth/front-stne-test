@@ -1,0 +1,188 @@
+@import "variaveis.less";
+
+//----------  funções de auxilio  ----------
+.transition(@prop: all, @time: 200ms, @mode: ease-in-out, @will: auto){
+	transition: @prop @time @mode;
+	-o-transition: @prop @time @mode;
+	-ms-transition: @prop @time @mode;
+	-moz-transition: @prop @time @mode;
+	-webkit-transition: @prop @time @mode;
+	will-change: @will;
+}
+
+.noTransform() {
+	transform:none;
+	-o-transform:none;
+	-ms-transform:none;
+	-moz-transform:none;
+	-webkit-transform:none;
+}
+
+.transform(@tipo: rotate, @valor: 45deg, @origem: center) {
+	transform: ~"@{tipo}(@{valor})";
+	-o-transform: ~"@{tipo}(@{valor})";
+	-ms-transform: ~"@{tipo}(@{valor})";
+	-moz-transform: ~"@{tipo}(@{valor})";
+	-webkit-transform: ~"@{tipo}(@{valor})";
+	transform-origin: @origem;
+	-o-transform-origin: @origem;
+	-ms-transform-origin: @origem;
+	-moz-transform-origin: @origem;
+	-webkit-transform-origin: @origem;
+}
+
+.radius(@radius: 2px) {
+	border-radius: @radius;
+	-o-border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+}
+
+.display(@display: inline-block) {
+	display: @display;
+}
+
+.valign(@align: middle) {
+	vertical-align: @align;
+}
+
+.order(@valor) {
+    order: @valor;
+    -webkit-order: @valor;
+    -ms-flex-order: @valor;
+    -moz-box-ordinal-group: @valor;
+	-webkit-box-ordinal-group: @valor;
+}
+
+.shadowBox(@x:0px, @y:0px, @s:5px, @f:7px, @cl:black){
+	-webkit-box-shadow: @x @y @s @f @cl;
+	box-shadow: @x @y @s @f @cl;
+}
+
+.shadowBoxI(@x:0px, @y:0px, @s:5px, @f:7px, @cl:black){
+	-webkit-box-shadow: inset @x @y @s @f @cl;
+	box-shadow: inset @x @y @s @f @cl;
+}
+
+.shadowTxt(@x:0px, @y:0px, @s:5px, @cl:black){
+	-webkit-text-shadow: @x @y @s @cl;
+	text-shadow: @x @y @s @cl;
+}
+
+.shadowTxtI(@x:0px, @y:0px, @s:5px, @cl:black){
+	-webkit-text-shadow: inset @x @y @s @cl;
+	text-shadow: inset @x @y @s @cl;
+}
+
+.lastline(@align: center) {
+	text-align-last: @align;
+	-ms-text-align-last: @align;
+	-moz-text-align-last: @align;
+}
+
+.grad(@c1, @c2, @rad:0) {
+	background: @c1;
+	background: linear-gradient(@rad,@c1,@c2);
+	background: -o-linear-gradient(@rad,@c1,@c2);
+	background: -moz-linear-gradient(@rad,@c1,@c2);
+	background: -webkit-linear-gradient(@rad,@c1,@c2);
+}
+
+.gradImg(@img,@c1, @c2, @blend: soft-light) {
+	background: @c1;
+	background-image: url(@img);
+	background: url(@img), linear-gradient(@c1,@c2);
+	background: url(@img), -o-linear-gradient(@c1,@c2);
+	background: url(@img), -moz-linear-gradient(@c1,@c2);
+	background: url(@img), -webkit-linear-gradient(@c1,@c2);
+	background-blend-mode: @blend;
+}
+
+.anime(@name, @time: 2s, @count: infinite, @effect: ease-in-out) {
+	animation: @name @time @count @effect;
+	-o-animation: @name @time @count @effect; /* Opera 12+ */
+	-moz-animation: @name @time @count @effect; /* Fx 5+ */
+	-webkit-animation: @name @time @count @effect; /* Safari 4+ */
+}
+
+.bevel(@s1:~"1px", @s2:~"-1px", @cl1:~"rgba(255, 255, 255, 0.4)", @cl2:~"rgba(0, 0, 0, 0.4)") {
+			-webkit-box-shadow: ~"inset @{s1} @{s1} @{s1} @{cl1}, inset @{s2} @{s2} @{s1} @{cl2}";
+			box-shadow: ~"inset @{s1} @{s1} @{s1} @{cl1}, inset @{s2} @{s2} @{s1} @{cl2}";
+}
+
+.ellipsis(@fsize:16px,@lineh:1.5,@linhas:3,@add:0) {
+	font-size: @fsize;
+	overflow: hidden;
+	line-height: @lineh;
+	.display(-webkit-inline-box);
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: @linhas;
+	max-height: @lineh*@linhas+@add;
+	/*max-height: @fsize*@lineh*@linhas+@add;*/
+}
+
+.wrap(@tipo: wrap) {
+	flex-wrap: @tipo;
+	-webkit-flex-wrap: @tipo;
+}
+
+.outline(@offset:1px,@cl:@branco,@tipo:solid,@size:1px) {
+    outline-offset: @offset;
+    outline-color: @cl;
+    outline-style: @tipo;
+    outline-width: @size;
+}
+
+.cima(@color, @size) {
+	content: '';
+    border-bottom: @size solid @color;
+    border-left: @size solid transparent;
+    border-right: @size solid transparent;
+	position: absolute;
+}
+
+.baixo(@color, @size) {
+	content: '';
+    border-top: @size solid @color;
+    border-left: @size solid transparent;
+    border-right: @size solid transparent;
+	position: absolute;
+}
+
+.esq(@color, @size) {
+	content: '';
+    border-bottom: @size solid transparent;
+    border-left: @size solid transparent;
+    border-right: @size solid @color;
+	position: absolute;
+}
+
+.dir(@color, @size) {
+	content: '';
+    border-top: @size solid transparent;
+    border-left: @size solid @color;
+    border-right: @size solid transparent;
+	position: absolute;
+}
+
+.animationst(@state:paused) {
+	animation-play-state: @state;
+	-o-animation-play-state: @state;
+	-ms-animation-play-state: @state;
+	-moz-animation-play-state: @state;
+	-wbekit-animation-play-state: @state;
+}
+
+.stroke(@size:2px, @color:@branco) {
+	-webkit-text-stroke: @size @color;
+}
+
+.mark(@color:inherit, @bg:yellow) {
+	mark {
+		color: @color;
+		padding: 0 7px;
+		background-color: @bg;
+		.clone();
+	}
+}

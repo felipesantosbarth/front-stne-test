@@ -4,6 +4,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<!-- metatags declaration -->
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<meta name="theme-color" content="#422755">
 		<meta name="keywords" content="task manager, to do list, workflow, organizador de tarefas"/>
 		<meta name="description" content="Tarefas a fazer: Adicione e complete tarefas para organizar melhor a sua semana! :)"/>
@@ -20,6 +21,7 @@
 
 		<!-- general assets -->
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link href="assets/styles/less/site.css" type="text/css" rel="stylesheet"  media="all" />
 	</head>
 	<body>
 		<div class="page all-task">
@@ -27,10 +29,10 @@
 				<h1>Tarefas a Fazer</h1>
 				<p>Adicione e complete tarefas para organizar melhor a sua semana. :)</p>
 			</div>
-			<div class="container">
+			<div class="container content">
 				<div class="controls">
-					<form action="" method="post">
-						<input type="text" placeholder="Busque tarefas">
+					<form action="" method="post" role="search">
+						<input type="search" id="search-input" class="search-field text" name="search" required="required" placeholder="Busque tarefas">
 						<button type="submit">Buscar</button>
 					</form>
 					<div class="order-control">
@@ -46,31 +48,64 @@
 				</div>
 				<ul class="task-list">
 					<li class="task-item">
+						<div class="task-tag late">Atrasado :(</div>
 						<figure>
 							<img src="assets/images/img-task.png" alt="Task Image">
 						</figure>
 						<div class="task-content">
 							<h4 class="task-nm">Nome da tarefa</h4>
 							<p class="task-ds">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis in ullam itaque, sunt accusamus veritatis autem, eos voluptatem non, a, laboriosam deserunt facilis impedit! Architecto accusantium, animi ducimus libero voluptatem.</p>
-							<p class="task-dl">Prazo: </p>
-							<p class="task-dt">Data de inclusão: há <span class="dt-included"></span></p>
+							<p class="task-dl">Prazo: <span>00/00</span></p>
+							<div class="task-actions">
+								<button class="end-task">Concluir</button>
+								<button class="change-dl"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.3051C14.5868 18.3051 18.3051 14.5868 18.3051 10C18.3051 5.41323 14.5868 1.69492 10 1.69492C5.41323 1.69492 1.69492 5.41323 1.69492 10C1.69492 14.5868 5.41323 18.3051 10 18.3051ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.8983 4.82345H10.2542V10.4167H15V11.7726H8.8983V4.82345Z" fill="white"/></svg><span> Alterar prazo</span></button>
+							</div>
+							<p class="task-dt">Data de inclusão: há <span class="dt-included">2 semanas</span></p>
 						</div>
-						<div class="task-actions">
-							<button class="end-task">Concluir</button>
-							<button class="change-dl"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.3051C14.5868 18.3051 18.3051 14.5868 18.3051 10C18.3051 5.41323 14.5868 1.69492 10 1.69492C5.41323 1.69492 1.69492 5.41323 1.69492 10C1.69492 14.5868 5.41323 18.3051 10 18.3051ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.8983 4.82345H10.2542V10.4167H15V11.7726H8.8983V4.82345Z" fill="white"/></svg> <span>Alterar prazo</span></button>
+					</li>
+					<li class="task-item">
+						<div class="task-tag small">Prazo curto!</div>
+						<figure>
+							<img src="assets/images/img-task.png" alt="Task Image">
+						</figure>
+						<div class="task-content">
+							<h4 class="task-nm">Nome da tarefa</h4>
+							<p class="task-ds">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis in ullam itaque, sunt accusamus veritatis autem, eos voluptatem non, a, laboriosam deserunt facilis impedit! Architecto accusantium, animi ducimus libero voluptatem.</p>
+							<div class="task-actions">
+								<button class="end-task">Concluir</button>
+								<button class="change-dl"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.3051C14.5868 18.3051 18.3051 14.5868 18.3051 10C18.3051 5.41323 14.5868 1.69492 10 1.69492C5.41323 1.69492 1.69492 5.41323 1.69492 10C1.69492 14.5868 5.41323 18.3051 10 18.3051ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.8983 4.82345H10.2542V10.4167H15V11.7726H8.8983V4.82345Z" fill="white"/></svg><span> Alterar prazo</span></button>
+							</div>
+							<p class="task-dt">Data de inclusão: há <span class="dt-included">2 semanas</span></p>
+						</div>
+					</li>
+					<li class="task-item">
+						<figure>
+							<img src="assets/images/img-task.png" alt="Task Image">
+						</figure>
+						<div class="task-content">
+							<h4 class="task-nm">Nome da tarefa</h4>
+							<p class="task-ds">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis in ullam itaque, sunt accusamus veritatis autem, eos voluptatem non, a, laboriosam deserunt facilis impedit! Architecto accusantium, animi ducimus libero voluptatem.</p>
+							<div class="task-actions">
+								<button class="end-task">Concluir</button>
+								<button class="change-dl"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.3051C14.5868 18.3051 18.3051 14.5868 18.3051 10C18.3051 5.41323 14.5868 1.69492 10 1.69492C5.41323 1.69492 1.69492 5.41323 1.69492 10C1.69492 14.5868 5.41323 18.3051 10 18.3051ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.8983 4.82345H10.2542V10.4167H15V11.7726H8.8983V4.82345Z" fill="white"/></svg><span> Alterar prazo</span></button>
+							</div>
+							<p class="task-dt">Data de inclusão: há <span class="dt-included">2 semanas</span></p>
 						</div>
 					</li>
 				</ul>
+				<button class="load-more">VER MAIS +</button>
 			</div>
 		</div>
 		<footer>
-			<div class="footer-all-pages">
+			<div class="footer-infos">
 				<div class="container">
-					<picture>
-						<source type="image/webp" srcset="assets/images/linx-logo.webp">
-						<source type="image/png" srcset="assets/images/linx-logo.png">
-						<img width="234" height="137" src="assets/images/linx-logo.png" alt="Linx Impulse">
-					</picture>
+					<a href="http://www.linx.com.br/" class="image-logo" target="_blank" rel="external nofollow">
+						<picture>
+							<source type="image/webp" srcset="assets/images/linx-logo.webp">
+							<source type="image/png" srcset="assets/images/linx-logo.png">
+							<img width="234" height="137" src="assets/images/linx-logo.png" alt="Linx Impulse">
+						</picture>
+					</a>
 					<div class="text">
 						<p>A Linx é uma empresa brasileira especialista em tecnologia para o varejo. Líder no mercado de software de gestão, com 45,6% de market share do mercado varejista, conforme atesta o IDC.</p>
 						<p>Toda a expertise da Linx na jornada de compra é transformada em insights fundamentais para atingir o que os varejistas mais esperam: fidelizar seus consumidores e atingir resultados concretos e relevantes.</p>
@@ -78,13 +113,14 @@
 					</div>
 				</div>
 			</div>
-			<div class="rodape">
-				<div class="container"></div>
-				<p>
-					Testando suas habilidades em HTML e CSS. <br>
-					Linx Impulse 2021 <br>
-					Teste ficcional!
-				</p>
+			<div class="copyright">
+				<div class="container">
+					<p>
+						Testando suas habilidades em HTML e CSS. <br>
+						Linx Impulse 2021 <br>
+						Teste ficcional!
+					</p>
+				</div>
 			</div>
 		</footer>
 	</body>

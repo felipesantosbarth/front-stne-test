@@ -1,0 +1,74 @@
+// CONFIGURAÇÕES BÁSICAS:
+
+// 1 - Importe a(s) fonte(s) necessárias no arquivo fontes.less, é neste arquivo que a configuração de icone deve ser feita, você pode importar alguma biblioteca pronta como o font awesome, pode fazer a sua própria com icon svg ou pode usar sprites.
+
+// 1.2 - configure a variavel de fonte com o nome da fonte que você importou (arquivo variaveis.less).
+
+// 2 - Configure as variaveis de acordo com o layout a ser estruturado (variaveis.less), mudando e adicionando cores, fontes e medidas.
+
+// 3 - No arquivo funcoes você pode adicionar novas funções ou editar as existentes.
+
+// 3.1 - Neste arquivo tem as funções padrões (calculo de largura, margins e wrapper), funcoes de auxilio (transition, radius e etc), classes de auxilio (clear, clearfix e etc)
+
+// 4 - Mixins.less é onde está a predefinição de estilo do layout neste arquivo vocÊ deve estilizar os elementos do site, estilize cor, efeitos, sombras e o que desejar, no arquivo tem alguns exemplos.
+
+// 5 - Reset.less tira algumas propriedades pré definidas pelo navegador, além de colocar estilos predefinidos em tags.
+
+// 6 - Base.less é onde vocÊ deve estilizar seu site.
+
+// 7 - Contém os estilos para determinadas resoluções
+
+
+/*===========================================
+=            1 - Fontes / Icones            =
+===========================================*/
+
+@import "incs/fontes.less";
+
+/*=====  End of 1 - Fontes / Icones  ======*/
+ 
+ 
+/*=====================================
+=            2 - Variaveis            =
+=====================================*/
+
+@import "incs/variaveis.less";
+
+/*=====  End of 2 - Variaveis  ======*/
+
+
+/*===================================
+=            3 - Funcoes            =
+===================================*/
+
+@import "incs/funcoes.less";
+
+/*=====  End of 3 - Funcoes  ======*/
+
+
+/*==================================
+=            4 - Mixins            =
+==================================*/
+
+@import "incs/mixins.less";
+
+/*=====  End of 4 - Mixins  ======*/
+
+
+/*=================================
+=            5 - Reset            =
+=================================*/
+
+@import "incs/reset.less";
+
+/*=====  End of 5 - Reset  ======*/
+
+
+/*================================
+=            6 - Base            =
+================================*/
+
+@import "medias/base.less";
+
+
+/*=====  End of 6 - Base  ======*/
