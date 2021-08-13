@@ -32,8 +32,8 @@
 			<div class="container content">
 				<div class="controls">
 					<form action="" method="post" role="search">
-						<input type="search" id="search-input" class="search-field text" name="search" required="required" placeholder="Busque tarefas">
-						<button type="submit">Buscar</button>
+						<input type="search" id="search-input" class="field text" name="search" required="required" placeholder="Busque tarefas">
+						<button type="submit" class="submit-btn">Buscar</button>
 					</form>
 					<div class="order-control">
 						<label for="orderfield">Organizar por:</label>
@@ -92,9 +92,99 @@
 							<p class="task-dt">Data de inclusão: há <span class="dt-included">2 semanas</span></p>
 						</div>
 					</li>
+					<li class="task-item">
+						<div class="task-tag small">Prazo curto!</div>
+						<figure>
+							<img src="assets/images/img-task.png" alt="Task Image">
+						</figure>
+						<div class="task-content">
+							<h4 class="task-nm">Nome da tarefa</h4>
+							<p class="task-ds">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis in ullam itaque, sunt accusamus veritatis autem, eos voluptatem non, a, laboriosam deserunt facilis impedit! Architecto accusantium, animi ducimus libero voluptatem.</p>
+							<div class="task-actions">
+								<button class="end-task">Concluir</button>
+								<button class="change-dl"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.3051C14.5868 18.3051 18.3051 14.5868 18.3051 10C18.3051 5.41323 14.5868 1.69492 10 1.69492C5.41323 1.69492 1.69492 5.41323 1.69492 10C1.69492 14.5868 5.41323 18.3051 10 18.3051ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.8983 4.82345H10.2542V10.4167H15V11.7726H8.8983V4.82345Z" fill="white"/></svg><span> Alterar prazo</span></button>
+							</div>
+							<p class="task-dt">Data de inclusão: há <span class="dt-included">2 semanas</span></p>
+						</div>
+					</li>
+					<li class="task-item">
+						<div class="task-tag late">Atrasado :(</div>
+						<figure>
+							<img src="assets/images/img-task.png" alt="Task Image">
+						</figure>
+						<div class="task-content">
+							<h4 class="task-nm">Nome da tarefa</h4>
+							<p class="task-ds">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis in ullam itaque, sunt accusamus veritatis autem, eos voluptatem non, a, laboriosam deserunt facilis impedit! Architecto accusantium, animi ducimus libero voluptatem.</p>
+							<p class="task-dl">Prazo: <span>00/00</span></p>
+							<div class="task-actions">
+								<button class="end-task">Concluir</button>
+								<button class="change-dl"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.3051C14.5868 18.3051 18.3051 14.5868 18.3051 10C18.3051 5.41323 14.5868 1.69492 10 1.69492C5.41323 1.69492 1.69492 5.41323 1.69492 10C1.69492 14.5868 5.41323 18.3051 10 18.3051ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.8983 4.82345H10.2542V10.4167H15V11.7726H8.8983V4.82345Z" fill="white"/></svg><span> Alterar prazo</span></button>
+							</div>
+							<p class="task-dt">Data de inclusão: há <span class="dt-included">2 semanas</span></p>
+						</div>
+					</li>
+					<li class="task-item">
+						<div class="task-tag small">Prazo curto!</div>
+						<figure>
+							<img src="assets/images/img-task.png" alt="Task Image">
+						</figure>
+						<div class="task-content">
+							<h4 class="task-nm">Nome da tarefa</h4>
+							<p class="task-ds">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis in ullam itaque, sunt accusamus veritatis autem, eos voluptatem non, a, laboriosam deserunt facilis impedit! Architecto accusantium, animi ducimus libero voluptatem.</p>
+							<div class="task-actions">
+								<button class="end-task">Concluir</button>
+								<button class="change-dl"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.3051C14.5868 18.3051 18.3051 14.5868 18.3051 10C18.3051 5.41323 14.5868 1.69492 10 1.69492C5.41323 1.69492 1.69492 5.41323 1.69492 10C1.69492 14.5868 5.41323 18.3051 10 18.3051ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.8983 4.82345H10.2542V10.4167H15V11.7726H8.8983V4.82345Z" fill="white"/></svg><span> Alterar prazo</span></button>
+							</div>
+							<p class="task-dt">Data de inclusão: há <span class="dt-included">2 semanas</span></p>
+						</div>
+					</li>
+					<li class="task-item">
+						<figure>
+							<img src="assets/images/img-task.png" alt="Task Image">
+						</figure>
+						<div class="task-content">
+							<h4 class="task-nm">Nome da tarefa</h4>
+							<p class="task-ds">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis in ullam itaque, sunt accusamus veritatis autem, eos voluptatem non, a, laboriosam deserunt facilis impedit! Architecto accusantium, animi ducimus libero voluptatem.</p>
+							<div class="task-actions">
+								<button class="end-task">Concluir</button>
+								<button class="change-dl"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.3051C14.5868 18.3051 18.3051 14.5868 18.3051 10C18.3051 5.41323 14.5868 1.69492 10 1.69492C5.41323 1.69492 1.69492 5.41323 1.69492 10C1.69492 14.5868 5.41323 18.3051 10 18.3051ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.8983 4.82345H10.2542V10.4167H15V11.7726H8.8983V4.82345Z" fill="white"/></svg><span> Alterar prazo</span></button>
+							</div>
+							<p class="task-dt">Data de inclusão: há <span class="dt-included">2 semanas</span></p>
+						</div>
+					</li>
+					<li class="task-item">
+						<div class="task-tag small">Prazo curto!</div>
+						<figure>
+							<img src="assets/images/img-task.png" alt="Task Image">
+						</figure>
+						<div class="task-content">
+							<h4 class="task-nm">Nome da tarefa</h4>
+							<p class="task-ds">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis in ullam itaque, sunt accusamus veritatis autem, eos voluptatem non, a, laboriosam deserunt facilis impedit! Architecto accusantium, animi ducimus libero voluptatem.</p>
+							<div class="task-actions">
+								<button class="end-task">Concluir</button>
+								<button class="change-dl"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.3051C14.5868 18.3051 18.3051 14.5868 18.3051 10C18.3051 5.41323 14.5868 1.69492 10 1.69492C5.41323 1.69492 1.69492 5.41323 1.69492 10C1.69492 14.5868 5.41323 18.3051 10 18.3051ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.8983 4.82345H10.2542V10.4167H15V11.7726H8.8983V4.82345Z" fill="white"/></svg><span> Alterar prazo</span></button>
+							</div>
+							<p class="task-dt">Data de inclusão: há <span class="dt-included">2 semanas</span></p>
+						</div>
+					</li>
 				</ul>
 				<button class="load-more">VER MAIS +</button>
+				<form action="" method="post" class="news">
+					<fieldset>
+						<legend>Quer receber dicas para organizar melhor a sua rotina? Cadastre-se!</legend>
+						<div class="control">
+							<label for="news-name">nome</label>
+							<input type="text" id="news-name" class="field" name="name" placeholder="Digite seu nome" autocomplete="off" required="required">
+						</div>
+						<div class="control">
+							<label for="news-email">e-mail</label>
+							<input type="email" id="news-email" class="field" name="email" placeholder="Digite seu e-mail" autocomplete="off" required="required">
+						</div>
+					</fieldset>
+					<button type="submit" class="submit-btn">Cadastrar</button>
+				</form>
 			</div>
+
 		</div>
 		<footer>
 			<div class="footer-infos">

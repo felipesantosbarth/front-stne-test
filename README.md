@@ -11,6 +11,4 @@ O projeto será executado instantaneamente.
 12/08 = 09:50 - 10:20: Análise de layout e criação dos primeiros arquivos e pastas
 		18:04 - 19:23: Análise de layout e construção da estrutura
 13/08 = 09:20 - 12:57: Importação de arquivos less e início da aplicação CSS mobile
-
-## Padrão de branch
-## FSB-front-stne-test--XXXXX
+		13:35 - 18:17: Ajuste de estrutura e CSS desktop
